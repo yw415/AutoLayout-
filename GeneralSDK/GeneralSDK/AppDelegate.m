@@ -14,6 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [HttpRequestSDK Instance];
+    NSLog(@"Test");
     return YES;
 }
 
